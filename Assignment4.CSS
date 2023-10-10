@@ -1,0 +1,122 @@
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+@media only screen and (min-width: 768px) {
+.col1{width: 8.33%;}
+.col2{width: 16.66%;}
+.col3{width: 25%;}
+.col4{width: 33.33%;}
+.col5{width: 41.66%;}
+.col6{width: 50%;}
+.col7{width: 58.33;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header{
+    font-size: 1.0rem;
+}
+
+}
+
+.table1{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li:hover{
+    background-color: #466D1D;
+}
+
+table{
+    width: 70%;
+}
+
+td{
+    color: #ffffff;
+    text-align: center;
+}
+
+th{
+    color: #ffffff;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #74b72e;
+    background-size: 600px;
+    color: #ffffff;
+}
+.header{
+    background-color: #c0c0c0;
+    text-align: center;
+
+}
+
+.kanan{
+    float: left;
+    display: table;
+    margin-left: 70px;
+}
+
+.paragraph{
+    float: left;
+    margin-left: 80px;
+}
+
+.h31{
+    text-align: center;
+    background-color: #c0c0c0;
+}
+
+.f1{
+    margin-top: 150px;
+    background-color: #74b72e;
+}
+
+@media only screen and (max-width: 600px) {
+
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+.paragraph{
+    float: left;
+    margin-left: 0px;
+}
+
+.kanan{
+    float: left;
+    display: table;
+    margin-left: 0px;
+}
+
+.header{
+    font-size: 0.6rem;
+}
+}
+
+[class*="col-"] {
+width: 100%;
+}
+
+.last{
+    background-color: #74b72e;
+    text-align: center;
+}
